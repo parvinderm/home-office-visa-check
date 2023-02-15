@@ -1,0 +1,456 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5201516100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User from Australia should be able to confirm Uk visa",
+        "description": "",
+        "id": "visa-confirmation-test;user-from-australia-should-be-able-to-confirm-uk-visa",
+        "after": [
+          {
+            "result": {
+              "duration": 120200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 141895100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User on homepage",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 105595800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on accept Cookies",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userClickOnAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20600653300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on start button",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userClickOnStartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34975000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select nationality from drop down list Australia",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userShouldSelectNationalityFromDropDownListAustralia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 400293800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on Continue Button",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userClickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57963500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on Tourism or Visiting Family And Friends",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userClickOnTourismOrVisitingFamilyAndFriends()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 326470300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on Continue Button",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userClickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50545500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should verify text \"You will not need a visa to come to the Uk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "You will not need a visa to come to the Uk",
+                  "offset": 25
+                }
+              ],
+              "location": "VisaConfirmationTestSteps.userShouldVerifyText(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1959093400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User from Chile should be able to come to Uk for work and plans On Staying for longer than six months visa",
+        "description": "",
+        "id": "visa-confirmation-test;user-from-chile-should-be-able-to-come-to-uk-for-work-and-plans-on-staying-for-longer-than-six-months-visa",
+        "after": [
+          {
+            "result": {
+              "duration": 30000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User on homepage",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 124308900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User click on accept Cookies",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userClickOnAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20425769600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click on start button",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userClickOnStartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34945300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User select nationality from Drop Down list Chile",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userSelectNationalityFromDropDownListChile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 399762300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click on Continue Button",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userClickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46424300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User click on Work,academic visit or business",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userClickOnWorkAcademicVisitOrBusiness()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 349927100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click on Continue Button",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userClickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81333900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click on  longer than 6 months",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 27
+                }
+              ],
+              "location": "VisaConfirmationTestSteps.userClickOnLongerThanMonths(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 348701800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User click on Continue Button",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userClickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48024300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click on Health and care professional",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userClickOnHealthAndCareProfessional()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 343475800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User click on Continue Button",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userClickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41894800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User verify text You need a visa to work in health and care",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userVerifyTextYouNeedAVisaToWorkInHealthAndCare()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1851675300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "User form Colombia coming to Uk should be able to confirm Join partner for a long stay visa",
+        "description": "",
+        "id": "visa-confirmation-test;user-form-colombia-coming-to-uk-should-be-able-to-confirm-join-partner-for-a-long-stay-visa",
+        "after": [
+          {
+            "result": {
+              "duration": 23500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User on homepage",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 124601800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User click on accept Cookies",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userClickOnAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20474404100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User click on start button",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userClickOnStartButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40871400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User select nationality from drop down list Colombia",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userSelectNationalityFromDropDownListColombia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 436788300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User click on Continue Button",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userClickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42221400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User click on Join partner or family for a long stay",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userClickOnJoinPartnerOrFamilyForALongStay()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 331663600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User click on Continue Button",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userClickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36220300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User should verify text You may need a visa",
+            "match": {
+              "location": "VisaConfirmationTestSteps.userShouldVerifyTextYouMayNeedAVisa()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Visa Confirmation Test",
+    "description": "User should be able to visit gov.uk visa website",
+    "id": "visa-confirmation-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/visaconfirmationtest.feature"
+  }
+]
